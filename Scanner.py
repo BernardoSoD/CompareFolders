@@ -10,7 +10,7 @@ def scan(path):
             if entry.is_dir():
                 scan(entry.path)
             else:
-                reader.write(entry.path[len(initialscan):] + " Size: " + str(os.stat(entry.path).st_size) + "\n")
+                reader.write(entry.path[len(initialscan):] + " " + str(os.stat(entry.path).st_size) + "Bytes" + "\n")
 
 
 if __name__ == "__main__" and len(sys.argv) > 1:
@@ -18,3 +18,5 @@ if __name__ == "__main__" and len(sys.argv) > 1:
     scan(initialscan)
 else:
     print("Missing path argument")
+    
+reader.close()
