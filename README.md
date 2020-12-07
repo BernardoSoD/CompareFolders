@@ -3,6 +3,8 @@ A simple Python program to output files inside a directory tree
 
 ### To run it:
 
+(Your Python version must be >=3.5)
+
 Simply go to it's directory and type:
 ```
 python Scanner.py "%ABSOLUTE_PATH_TO_THE_DESIRED_DIRECTORY%"
