@@ -11,7 +11,7 @@ python Scanner.py "%ABSOLUTE_PATH_TO_THE_DESIRED_DIRECTORY%"
 ```
 Example:
 `` python Scanner.py "C:\Program Files\Git" `` \
-It will generate a .txt file called "saida.txt" where each line is a relative path (to the path you chose) and the size of the file in Bytes.
+It will generate a .txt file called "saida.txt" where each line is a relative path of the file (to the path you chose) and the size of the file in Bytes.
 
 Known issues:
 
